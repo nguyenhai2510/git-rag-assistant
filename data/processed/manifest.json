@@ -1,0 +1,110 @@
+[
+  {
+    "command": "git-init",
+    "source": "https://git-scm.com/docs/git-init",
+    "original": "https://raw.githubusercontent.com/git/git/master/Documentation/git-init.adoc",
+    "collected_at": "2026-10-15T06:44:58.957488+00:00",
+    "file": "git-init.md",
+    "characters": 6224,
+    "status": "success"
+  },
+  {
+    "command": "git-clone",
+    "source": "https://git-scm.com/docs/git-clone",
+    "original": "https://raw.githubusercontent.com/git/git/master/Documentation/git-clone.adoc",
+    "collected_at": "2026-10-15T06:44:59.604867+00:00",
+    "file": "git-clone.md",
+    "characters": 16732,
+    "status": "success"
+  },
+  {
+    "command": "git-add",
+    "source": "https://git-scm.com/docs/git-add",
+    "original": "https://raw.githubusercontent.com/git/git/master/Documentation/git-add.adoc",
+    "collected_at": "2026-10-15T06:45:00.328742+00:00",
+    "file": "git-add.md",
+    "characters": 16196,
+    "status": "success"
+  },
+  {
+    "command": "git-commit",
+    "source": "https://git-scm.com/docs/git-commit",
+    "original": "https://raw.githubusercontent.com/git/git/master/Documentation/git-commit.adoc",
+    "collected_at": "2026-10-15T06:45:01.127867+00:00",
+    "file": "git-commit.md",
+    "characters": 21078,
+    "status": "success"
+  },
+  {
+    "command": "git-status",
+    "source": "https://git-scm.com/docs/git-status",
+    "original": "https://raw.githubusercontent.com/git/git/master/Documentation/git-status.adoc",
+    "collected_at": "2026-10-15T06:45:02.016804+00:00",
+    "file": "git-status.md",
+    "characters": 19695,
+    "status": "success"
+  },
+  {
+    "command": "git-branch",
+    "source": "https://git-scm.com/docs/git-branch",
+    "original": "https://raw.githubusercontent.com/git/git/master/Documentation/git-branch.adoc",
+    "collected_at": "2026-10-15T06:45:03.063523+00:00",
+    "file": "git-branch.md",
+    "characters": 17783,
+    "status": "success"
+  },
+  {
+    "command": "git-switch",
+    "source": "https://git-scm.com/docs/git-switch",
+    "original": "https://raw.githubusercontent.com/git/git/master/Documentation/git-switch.adoc",
+    "collected_at": "2026-10-15T06:45:03.881550+00:00",
+    "file": "git-switch.md",
+    "characters": 8759,
+    "status": "success"
+  },
+  {
+    "command": "git-merge",
+    "source": "https://git-scm.com/docs/git-merge",
+    "original": "https://raw.githubusercontent.com/git/git/master/Documentation/git-merge.adoc",
+    "collected_at": "2026-10-15T06:45:05.646102+00:00",
+    "file": "git-merge.md",
+    "characters": 14336,
+    "status": "success"
+  },
+  {
+    "command": "git-fetch",
+    "source": "https://git-scm.com/docs/git-fetch",
+    "original": "https://raw.githubusercontent.com/git/git/master/Documentation/git-fetch.adoc",
+    "collected_at": "2026-10-15T06:45:06.395228+00:00",
+    "file": "git-fetch.md",
+    "characters": 10920,
+    "status": "success"
+  },
+  {
+    "command": "git-pull",
+    "source": "https://git-scm.com/docs/git-pull",
+    "original": "https://raw.githubusercontent.com/git/git/master/Documentation/git-pull.adoc",
+    "collected_at": "2026-10-15T06:45:09.249669+00:00",
+    "file": "git-pull.md",
+    "characters": 7217,
+    "status": "success"
+  },
+  {
+    "command": "git-reset",
+    "source": "https://git-scm.com/docs/git-reset",
+    "original": "https://raw.githubusercontent.com/git/git/master/Documentation/git-reset.adoc",
+    "collected_at": "2026-10-15T06:45:09.669178+00:00",
+    "file": "git-reset.md",
+    "characters": 18460,
+    "status": "success"
+  },
+  {
+    "command": "git-revert",
+    "source": "https://git-scm.com/docs/git-revert",
+    "original": "https://raw.githubusercontent.com/git/git/master/Documentation/git-revert.adoc",
+    "collected_at": "2026-10-15T06:45:11.372476+00:00",
+    "file": "git-revert.md",
+    "characters": 5084,
+    "status": "success"
+  }
+]

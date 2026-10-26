@@ -1,0 +1,258 @@
+[
+  {
+    "id": "TC-01",
+    "category": "git_basics",
+    "question": "Git là gì và dùng để làm gì?",
+    "expected_answer": "Git là hệ thống quản lý phiên bản phân tán, theo dõi lịch sử thay đổi và hỗ trợ cộng tác.",
+    "expected_terms": [
+      "git",
+      "phiên bản"
+    ],
+    "in_scope": true
+  },
+  {
+    "id": "TC-02",
+    "category": "git_basics",
+    "question": "git init khác git clone như thế nào?",
+    "expected_answer": "git init khởi tạo repository; git clone sao chép repository đã tồn tại.",
+    "expected_terms": [
+      "git init",
+      "git clone"
+    ],
+    "in_scope": true
+  },
+  {
+    "id": "TC-03",
+    "category": "git_basics",
+    "question": "git add và git commit khác nhau thế nào?",
+    "expected_answer": "git add stage nội dung; git commit tạo commit từ nội dung đã stage.",
+    "expected_terms": [
+      "git add",
+      "git commit"
+    ],
+    "in_scope": true
+  },
+  {
+    "id": "TC-04",
+    "category": "git_basics",
+    "question": "Làm sao xem các file đã thay đổi trong Git?",
+    "expected_answer": "Dùng git status để xem trạng thái, git diff để xem nội dung thay đổi chưa stage.",
+    "expected_terms": [
+      "git status",
+      "git diff"
+    ],
+    "in_scope": true
+  },
+  {
+    "id": "TC-05",
+    "category": "git_basics",
+    "question": "Staging area trong Git là gì?",
+    "expected_answer": "Staging area hay index lưu nội dung được chuẩn bị cho commit tiếp theo.",
+    "expected_terms": [
+      "staging",
+      "index"
+    ],
+    "in_scope": true
+  },
+  {
+    "id": "TC-06",
+    "category": "branching",
+    "question": "Làm thế nào để tạo nhánh mới và chuyển sang nhánh đó?",
+    "expected_answer": "Dùng git switch -c <branch-name>.",
+    "expected_terms": [
+      "git switch -c"
+    ],
+    "in_scope": true
+  },
+  {
+    "id": "TC-07",
+    "category": "branching",
+    "question": "Làm sao xem danh sách các nhánh Git?",
+    "expected_answer": "Dùng git branch để liệt kê các nhánh local.",
+    "expected_terms": [
+      "git branch"
+    ],
+    "in_scope": true
+  },
+  {
+    "id": "TC-08",
+    "category": "branching",
+    "question": "git merge khác git rebase như thế nào?",
+    "expected_answer": "Merge tích hợp lịch sử, có thể tạo merge commit; rebase phát lại commit trên base mới và có thể thay đổi commit ID.",
+    "expected_terms": [
+      "merge",
+      "rebase"
+    ],
+    "in_scope": true
+  },
+  {
+    "id": "TC-09",
+    "category": "branching",
+    "question": "Các bước xử lý merge conflict trong Git?",
+    "expected_answer": "Kiểm tra git status, sửa file conflict, git add, sau đó hoàn tất merge.",
+    "expected_terms": [
+      "git status",
+      "git add",
+      "git merge"
+    ],
+    "in_scope": true
+  },
+  {
+    "id": "TC-10",
+    "category": "branching",
+    "question": "Làm thế nào để hủy một merge đang thực hiện?",
+    "expected_answer": "Có thể dùng git merge --abort; cần kiểm tra trạng thái và các thay đổi chưa commit.",
+    "expected_terms": [
+      "git merge --abort"
+    ],
+    "in_scope": true
+  },
+  {
+    "id": "TC-11",
+    "category": "remote",
+    "question": "git fetch khác git pull thế nào?",
+    "expected_answer": "Fetch tải dữ liệu remote mà không tự tích hợp; pull fetch rồi tích hợp bằng fast-forward, merge hoặc rebase.",
+    "expected_terms": [
+      "git fetch",
+      "git pull"
+    ],
+    "in_scope": true
+  },
+  {
+    "id": "TC-12",
+    "category": "remote",
+    "question": "Làm sao xem remote repository đang được cấu hình?",
+    "expected_answer": "Sử dụng git remote -v.",
+    "expected_terms": [
+      "git remote -v"
+    ],
+    "in_scope": true
+  },
+  {
+    "id": "TC-13",
+    "category": "remote",
+    "question": "Làm sao push một nhánh mới lên remote origin và đặt upstream?",
+    "expected_answer": "Sử dụng git push -u origin <branch-name>.",
+    "expected_terms": [
+      "git push -u"
+    ],
+    "in_scope": true
+  },
+  {
+    "id": "TC-14",
+    "category": "remote",
+    "question": "Lỗi non-fast-forward khi git push có nghĩa là gì?",
+    "expected_answer": "Thường do cập nhật remote không thể thực hiện fast-forward; cần kiểm tra và tích hợp lịch sử remote phù hợp.",
+    "expected_terms": [
+      "remote",
+      "push"
+    ],
+    "in_scope": true
+  },
+  {
+    "id": "TC-15",
+    "category": "remote",
+    "question": "Một workflow Git đơn giản khi làm việc theo feature branch là gì?",
+    "expected_answer": "Tạo feature branch, thay đổi và commit, push lên remote, review rồi tích hợp về nhánh chính.",
+    "expected_terms": [
+      "branch",
+      "commit",
+      "push"
+    ],
+    "in_scope": true
+  },
+  {
+    "id": "TC-16",
+    "category": "undo",
+    "question": "Hoàn tác commit gần nhất nhưng vẫn giữ code trong staging area?",
+    "expected_answer": "Dùng git reset --soft HEAD~1.",
+    "expected_terms": [
+      "git reset --soft"
+    ],
+    "in_scope": true
+  },
+  {
+    "id": "TC-17",
+    "category": "undo",
+    "question": "Hoàn tác commit gần nhất, giữ code nhưng bỏ staging?",
+    "expected_answer": "Dùng git reset --mixed HEAD~1.",
+    "expected_terms": [
+      "git reset --mixed"
+    ],
+    "in_scope": true
+  },
+  {
+    "id": "TC-18",
+    "category": "undo",
+    "question": "Đã push commit sai lên nhánh dùng chung, nên làm gì?",
+    "expected_answer": "Thông thường nên dùng git revert để tạo commit đảo thay đổi thay vì viết lại lịch sử chung.",
+    "expected_terms": [
+      "git revert"
+    ],
+    "in_scope": true
+  },
+  {
+    "id": "TC-19",
+    "category": "undo",
+    "question": "Làm sao bỏ stage README.md mà không xóa code đã sửa?",
+    "expected_answer": "Dùng git restore --staged README.md.",
+    "expected_terms": [
+      "git restore --staged"
+    ],
+    "in_scope": true
+  },
+  {
+    "id": "TC-20",
+    "category": "undo",
+    "question": "Vì sao cần cẩn thận với git reset --hard?",
+    "expected_answer": "Reset hard cập nhật index và working tree, có nguy cơ làm mất thay đổi chưa commit.",
+    "expected_terms": [
+      "git reset --hard"
+    ],
+    "in_scope": true
+  },
+  {
+    "id": "TC-21",
+    "category": "edge",
+    "question": "Tôi đang sửa code nhưng cần chuyển công việc, làm sao lưu tạm thay đổi?",
+    "expected_answer": "Có thể dùng git stash push để lưu tạm thay đổi, sau đó apply hoặc pop để khôi phục.",
+    "expected_terms": [
+      "git stash"
+    ],
+    "in_scope": true
+  },
+  {
+    "id": "TC-22",
+    "category": "edge",
+    "question": "Cách xem lịch sử commit dạng ngắn gọn?",
+    "expected_answer": "Dùng git log --oneline.",
+    "expected_terms": [
+      "git log --oneline"
+    ],
+    "in_scope": true
+  },
+  {
+    "id": "TC-23",
+    "category": "out_of_scope",
+    "question": "Hướng dẫn triển khai Kubernetes Cluster trên AWS từ đầu đến cuối.",
+    "expected_answer": "Từ chối vì Knowledge Base không cung cấp hướng dẫn Kubernetes trên AWS.",
+    "expected_terms": [],
+    "in_scope": false
+  },
+  {
+    "id": "TC-24",
+    "category": "out_of_scope",
+    "question": "Hướng dẫn viết REST API bằng Spring Boot và kết nối MySQL.",
+    "expected_answer": "Từ chối vì Knowledge Base chỉ tập trung vào Git.",
+    "expected_terms": [],
+    "in_scope": false
+  },
+  {
+    "id": "TC-25",
+    "category": "out_of_scope",
+    "question": "Dự báo thời tiết Hà Nội ngày mai như thế nào?",
+    "expected_answer": "Từ chối hoặc nêu không có thông tin thời tiết trong Knowledge Base.",
+    "expected_terms": [],
+    "in_scope": false
+  }
+]
