@@ -160,11 +160,10 @@ Không yêu cầu GPU riêng cho cấu hình embedding đang sử dụng, nhưng
 ### Bước 1 — Clone repository
 
 ```powershell
-git clone https://github.com/<YOUR_GITHUB_USERNAME>/git-rag-assistant.git
+git clone https://github.com/nguyenhai2510/git-rag-assistant.git
 cd git-rag-assistant
 ```
 
-**Thay `<YOUR_GITHUB_USERNAME>` bằng tài khoản GitHub thực tế của dự án.** Nếu bạn đã clone hoặc có source code local, bỏ qua bước này.
 
 ### Bước 2 — Tạo và kích hoạt virtual environment
 
